@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+Assignment
+A retailer offers a rewards program to its customers, awarding points based on each recorded purchase.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent between $50 and $100 in each transaction.
 
-## Available Scripts
+(e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).
 
-In the project directory, you can run:
+Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.
 
-### `npm start`
+How to run the ReactJS Application ?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open the Downloaded file in the VS Code
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open the terminal after navigating to rewards-calculator folder
 
-### `npm test`
+Run the command
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
 
-### `npm run build`
+This will install the needed dependencies required to run the ReactJS Application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After installing all the required node modules run the below command
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will start running the ReactJS application in localhost
 
-### `npm run eject`
+You can run all the test cases using the below command
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm test
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will start running all the tests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Features
+Calculate Reward points earned for each customer per month and total
+Show data based on latest consecutive N month period of time
+Transaction data can be with in the same year or spans different years
+Data is grouped based on years if it spans different years
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Multiple transactions within the month are sumed up together
 
-## Learn More
+Rounded up rewards
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Loading screen and Error handling is implemented
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Test cases for all of the above scenarios are added
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Transaction data is logged

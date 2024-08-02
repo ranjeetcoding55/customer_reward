@@ -30,7 +30,7 @@ Given a record of every transaction during a three month period, calculate the r
 
 7. You can run all the test cases using the below command
 
-  npm test
+   npm test
 
 8. This will start running all the tests
 

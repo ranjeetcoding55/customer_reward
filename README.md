@@ -36,9 +36,9 @@ Given a record of every transaction during a three month period, calculate the r
 
 ## Features
 
-- Calculate Reward points earned for each customer per month and total
-- Show data based on latest consecutive N month period of time
-- Transaction data can be with in the same year or spans different years
++ Calculate Reward points earned for each customer per month and total
++ Show data based on latest consecutive N month period of time
++ Transaction data can be with in the same year or spans different years
 + Data is grouped based on years if it spans different years
 + Multiple transactions within the month are sumed up together
 + Rounded up rewards
